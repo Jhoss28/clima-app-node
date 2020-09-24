@@ -15,7 +15,6 @@ const argv = require('yargs').options({
 
 }).argv;
 
-
 const getInTemperatura = async(region, localidad) => {
 
     try {
@@ -25,7 +24,6 @@ const getInTemperatura = async(region, localidad) => {
     } catch (e) {
         return `No de pudo determinar el clima de ${localidad}`
     }
-
 }
 
 getInTemperatura(argv.pais.toUpperCase(), argv.ciudad).then(resp => {

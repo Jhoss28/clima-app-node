@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-
 const getLugarLtLn = async(region, localidad) => {
     const endPoint = encodeURI(`https://geocode.xyz/?region=${region}&locate=${localidad}&json=1`);
     let data = [];
@@ -20,15 +19,6 @@ const getLugarLtLn = async(region, localidad) => {
     }
 
 }
-
-
 module.exports = {
     getLugarLtLn
 }
-
-
-
-
-//const fetch = require('node-fetch');
-//const response = await fetch('https://jsonplaceholder.typicode.com/users');
-//const dataUser = await response.json();

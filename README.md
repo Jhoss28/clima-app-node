@@ -1,4 +1,4 @@
-## Aplicaión en consola del clima - Curso de Node 
+## Aplicación en consola del clima - Curso de Node 
 
 Recuerda ejecutar npm install para las librerias
 
